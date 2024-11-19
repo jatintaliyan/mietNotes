@@ -1,4 +1,4 @@
-* {
+body {
   user-select: none;
   padding: 0;
   margin: 0;
@@ -11,6 +11,7 @@
   height: 100px;
   border-radius: 10px;
   box-shadow: 0 7px 10px black;
+  margin-bottom: 20px;
 }
 .head {
   background-color: #1f2428;
@@ -18,30 +19,35 @@
   color: red;
   margin: auto;
 }
+
+.yearcontainer {
+  /* margin-top: 50px; */
+  /* margin-bottom: 50px; */
+  height: 690px;
+  width: 220px;
+  border-radius: 15px;
+
+  margin: auto;
+  /* border: 1px solid white; */
+  padding: 5px;
+}
+
 .year {
-  /* border: 1px solid black; */
+  margin-top: 30px;
   background-color: black;
   height: 50px;
   width: 200px;
   padding: 10px;
-  margin: auto;
-  margin-top: 20px;
-  /* margin-bottom: 20px; */
 
   border-radius: 15px;
   color: aliceblue;
   box-shadow: 0 7px 10px black;
-  font-style: normal;
 }
 .year:hover {
   user-select: none;
   box-shadow: 0px 0px 30px 5px black;
   font-size: 120%;
   font-weight: bold;
-}
-.yearcontainer {
-  margin-top: 40px;
-  margin-bottom: 50px;
 }
 
 .content {
@@ -58,24 +64,25 @@
   background-color: #1f2428;
   color: wheat;
 } */
+
 .footer {
   background-color: #1f2428;
-  /* border: 1px solid black; */
+  /*  border: 1px solid black;  */
   display: flex;
-  height: 60px;
+  height: 50px;
   position: fixed;
   width: 100%;
-  left: 0;
   bottom: 0;
 }
+
 .foot {
   background-color: #1f2428;
   font-size: 18px;
   color: wheat;
   margin: auto;
 }
-.space {
+/* .space {
   margin-top: 50px;
   height: 50px;
   width: 100%;
-}
+} */
